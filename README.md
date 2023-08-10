@@ -58,7 +58,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:tryber/sd-0x-project-react-testing-library.git`.
+  - Use o comando: `git clone https://github.com/tryber/sd-033-a-project-react-testing-library-ts.git`.
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd sd-0x-project-react-testing-library`
 
