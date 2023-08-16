@@ -48,15 +48,15 @@ describe('Testando o componente Pokedex.tsx', () => {
       const pikachuName = screen.getByText(/pikachu/i);
       expect(pikachuName).toBeInTheDocument();
     });
-  test('A Pokédex contém um botão para resetar o filtro:', () => {
-    renderWithRouter(<App />);
-    const resetButton = screen.getByText('All');
-    expect(resetButton).toBeInTheDocument();
+    test('A Pokédex contém um botão para resetar o filtro:', () => {
+      renderWithRouter(<App />);
+      const resetButton = screen.getByText('All');
+      expect(resetButton).toBeInTheDocument();
 
-    fireEvent.click(resetButton);
+      fireEvent.click(resetButton);
 
-    const firstPokemon = screen.getByText(/pikachu/i);
-    expect(firstPokemon).toBeInTheDocument();
+      const firstPokemon = screen.getByText(/pikachu/i);
+      expect(firstPokemon).toBeInTheDocument();
+    });
   });
-});
 });
