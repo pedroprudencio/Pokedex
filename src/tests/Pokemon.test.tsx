@@ -1,7 +1,7 @@
+import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../renderWithRouter';
 import App from '../App';
-import { screen } from '@testing-library/react';
 
 describe('<Pokemon.tsx />', () => {
   test('deve renderizar um card de Pokémon com as informações corretas', () => {
