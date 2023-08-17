@@ -24,6 +24,13 @@ describe('Testando o componente Pokedex.tsx', () => {
     expect(secondPokemon).toBeInTheDocument();
   });
 
+  test('É mostrado apenas um Pokémon por vez:', () => {
+    renderWithRouter(<App />);
+
+    const pokemon = screen.getAllByTestId('pokemon-name');
+    expect(pokemon.length).toBe(1);
+  });
+
   test('A Pokédex tem os botões de filtro:', () => {
     renderWithRouter(<App />);
     const typeButtons = screen.getAllByTestId('pokemon-type-button');
