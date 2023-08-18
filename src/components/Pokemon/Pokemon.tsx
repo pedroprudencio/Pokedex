@@ -45,3 +45,4 @@ function Pokemon(props: PokemonProps) {
 }
 
 export default Pokemon;
+ 
