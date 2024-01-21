@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <div className="header-container">
-        <header>
+        <header >
           <h1>Pokédex</h1>
           <nav>
             <Link className="link" to="/">
-              {`Home`}
+              {`Pokédex`}
             </Link>
             <Link className="link" to="/about">
               {`About`}
